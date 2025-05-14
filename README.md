@@ -1,12 +1,17 @@
-# React + Vite
+# React Jobs Project
+This is the jobs listing project from youtube crash course
+![alt text](public/image.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Usage
+This project uses JSON-Server for a mock backend.
 
-Currently, two official plugins are available:
+## Install Dependencies
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run JSON Server
+The server will run on http://localhost:8000
+npm run server
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Vite Frontend
+React will run on http://localhost:3000
+npm run dev
